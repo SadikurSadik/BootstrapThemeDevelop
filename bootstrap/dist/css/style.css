@@ -100,3 +100,21 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
 .features img{
     padding: 15px 0 35px;
 }
+
+/*Press*/
+.press{
+    padding:90px 0;
+    text-align: center;
+}
+.press h1{
+    padding-bottom: 25px;
+    font-size: 1.8em;
+    color: #337ab7;
+}
+.press .press-logo li img{
+    opacity: 0.3;
+    padding-bottom: 25px;
+}
+.press .press-logo li:hover img{
+    opacity: 1;
+}
