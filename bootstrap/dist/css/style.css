@@ -1,3 +1,18 @@
+p,h1{font-family: 'Droid Sans', sans-serif;}
+.btn-trans{
+    background: transparent;
+    border-color: white;
+    color: #ffffff;
+}
+.btn-trans:hover,
+.btn-trans:focus,
+.btn-trans:active,
+.btn-trans.active{
+    color: #ffffff;
+    background: #235378;
+    border-color: white;
+}
+
 /* Navigation */
 .navbar{
     background: #242424;
@@ -16,3 +31,39 @@
     font-size: 1.5em;
 }
 
+/* Header */
+.header{
+    padding: 140px 0 60px 0;
+    background: url("../../../img/bg.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 2px solid #c9c9c9;
+}
+.header h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 7.5em;
+}
+.header p{
+    color: white;
+    font-size: 1.2em;
+}
+.header .btn{
+    padding: 5px 50px;
+    border-radius: 0;
+}
+
+/*For Tab and Mobile Device*/
+@media(max-width: 768px) {
+    .header{
+        text-align: center;
+        padding-top: 20%;
+    }
+    .header h1{
+        font-size: 4.5em;
+        padding: 0;
+    }
+    .header p{font-size: 1em;}
+    .header .btn{padding: 5px 12px;}
+    .header img{margin-top: 10%;}
+}
