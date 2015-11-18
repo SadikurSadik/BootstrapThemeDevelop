@@ -153,3 +153,20 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
         padding-bottom: 20px;
     }
 }
+
+/*Buy Online*/
+.buy{
+    padding:100px 0;
+    text-align: center;
+    color: white;
+    background: #1c3f5c;
+}
+.buy h1{
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+.buy button{
+    background: transparent;
+    border: none;
+    padding-top: 25px;
+}
