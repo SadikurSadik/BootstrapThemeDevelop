@@ -134,3 +134,22 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
 .screenshots img{
     padding: 20px 0;
 }
+
+/*Reviews*/
+.reviews{
+    text-align: center;
+    padding:90px 0;
+ }
+.reviews h1{
+    padding-bottom: 25px;
+    font-size: 2em;
+    color: #337ab7;
+}
+.reviews p{padding-bottom: 35px;}
+.reviews .line2{padding-top: 35px;}
+@media(max-width: 500px) {
+    .reviews p{
+        font-size: .9em;
+        padding-bottom: 20px;
+    }
+}
