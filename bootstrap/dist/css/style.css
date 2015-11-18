@@ -170,3 +170,18 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
     border: none;
     padding-top: 25px;
 }
+
+/*Contact*/
+.contact{
+    padding: 100px 0;
+    text-align: center;
+}
+.contact h1{
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+.contact .fa{
+    color: #1c3f5c !important;
+}
+.contact .socialIcon{padding: 20px 10px 40px;}
+.contact li{padding-top: 10px;}
