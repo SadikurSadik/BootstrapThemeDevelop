@@ -118,3 +118,19 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
 .press .press-logo li:hover img{
     opacity: 1;
 }
+
+/*Screenshots*/
+.screenshots{
+    padding: 90px 0;
+    text-align: center;
+    background: #235178;
+    color: white;
+}
+.screenshots h1{
+    padding-bottom: 25px;
+    font-size: 2em;
+    color: white;
+}
+.screenshots img{
+    padding: 20px 0;
+}
