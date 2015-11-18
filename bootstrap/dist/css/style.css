@@ -134,6 +134,12 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
 .screenshots img{
     padding: 20px 0;
 }
+@media(max-width: 991px) {
+    .screenshots img{width: 85%;}
+}
+@media(max-width: 400px) {
+    .screenshots img{width: 100%;}
+}
 
 /*Reviews*/
 .reviews{
@@ -185,3 +191,25 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
 }
 .contact .socialIcon{padding: 20px 10px 40px;}
 .contact li{padding-top: 10px;}
+
+/*Footer*/
+.footer{
+    background: #242424;
+    color: white;
+    padding: 30px 0;
+}
+.footer h1{
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+}
+.footer a{
+    font-size: 0.9em;
+    color: #f2f2f2;
+    padding-top: 0;
+}
+@media(max-width: 991px) {
+    .footer{
+        text-align: center;
+    }
+    .footer h1{padding: 20px 0 10px;}
+}
