@@ -65,5 +65,8 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
     }
     .header p{font-size: 1em;}
     .header .btn{padding: 5px 12px;}
+
+}
+@media(max-width: 990px){
     .header img{margin-top: 10%;}
 }
