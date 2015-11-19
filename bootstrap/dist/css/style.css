@@ -31,6 +31,9 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
     color: white !important;
     font-size: 1.5em;
 }
+.navbar-default .nav li.active a{
+    color: #1d1d1d !important;
+}
 
 /* Header */
 .header{
