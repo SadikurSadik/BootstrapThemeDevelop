@@ -21,6 +21,7 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
 }
 .navbar a{
     color: #cccccc !important;
+    text-align: center;
 }
 .navbar a:hover{
     color: #ffffff !important;
@@ -135,10 +136,11 @@ p,h1{font-family: 'Droid Sans', sans-serif;}
     padding: 20px 0;
 }
 @media(max-width: 991px) {
-    .screenshots img{width: 85%;}
+    .screenshots img{width: 85%; height: 90%;}
 }
-@media(max-width: 400px) {
-    .screenshots img{width: 100%;}
+@media(max-width: 350px) {
+    .screenshots img{width: 100%;
+    }
 }
 
 /*Reviews*/
